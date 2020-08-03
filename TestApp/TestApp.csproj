@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartWorkingDirectory>$(MSBuildProjectDirectory)</StartWorkingDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200803032233_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803032233_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803034102_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803034102_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803034144_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803034144_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803034511_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803034511_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803034547_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803034547_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803035607_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803035607_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803040432_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803040432_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803040747_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803040747_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803040938_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803040938_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803041044_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803041044_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803041200_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803041200_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803042149_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803042149_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803043603_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803043603_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803043730_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803043730_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803045102_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803045102_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803045533_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803045533_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803050524_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803050524_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200803050819_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200803050819_InitialCreate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
